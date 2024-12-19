@@ -1,0 +1,95 @@
+//just table 
+<html>
+<head>
+<title>Hotel TAble</title>
+<style>
+body{
+background-image:url("1.png.png");
+background-repeat:no-repeat;
+background-size:80%;
+background-attachment:fixed;
+background-position:center;
+}
+table{
+width:500px;
+height:500px;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+td{
+height:250px;
+}
+td{
+background-color:lightblue;
+}
+td:hover{
+background-image:url("download.jpg");
+}
+
+</style>
+<header>WELCOME TO ANADHA BAVAN</header>
+</head>
+<body>
+<img scr="1.png.png" style=width:400px,height:50px>
+<br>
+<br>
+<br>
+<br>
+<br>
+<centre>
+
+
+ <table  border="20"bgcolor="white">
+<thead>
+
+<tr><th> S.No</th>	
+<th>item </th>
+<th> price</th>
+
+</thead>
+<tbody>
+          
+            <tr>
+                <td rowspan="10">MORNING</td>
+        </tr><br>
+		<tr>
+		<td>dosa</td>
+		<td>RS.50</td>
+		</tr>
+		<tr>
+		<td> 2idly</td>
+		<td>RS.50</td>
+		</tr>
+		<tr>
+		<td>2 puri</td>
+		<td>RS.50</td>
+		</tr>
+		<tr>
+		<td>pognal</td>
+		<td>RS.50</td>
+		</tr>
+		<tr>
+		<td>adda</td>
+		<td>RS.50</td>
+		</tr>
+		
+            <tr>
+                <td>samosa</td><br>
+        <td>rs.20</td>
+    </tr>
+        <tr>
+            <td>vada</td>
+        <td>rs.20</td>
+    </tr>
+</tbody>
+    </table>
+</centre>
+
+
+</body>
+</html>
